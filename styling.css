@@ -1,0 +1,229 @@
+/*
+*{
+    margin: 0;
+    padding:0 ;
+}
+*/
+.fix-me{
+    margin-left: 0px;
+    position: fixed;
+    top: 100px;
+}
+*{
+    margin: 5px;
+}
+.clr{
+    clear: both;
+}
+h3{
+    color: white;
+    background-color: blue;
+    align-content:center;
+}
+body{
+   /* background-color: blueviolet;*/
+    font: bold 10px arial helvetica sans-serif;
+    /*same as above*/
+    margin: 10px;
+}
+/*p{
+    line-height: 200%;
+    min-width: 700px;
+    
+}*/
+.joshim{
+    background-color: crimson;
+    font: normal 20px arial;
+    color: white;
+    width: 990px;
+    margin: auto;
+}
+.love{
+    text-align: justify;
+    margin-top: 20px;
+    background-color: #000;
+    color:white;
+    border: 5px red solid;
+    border-top-width : 10px;
+    border-top-style: dotted;
+    padding: 20px;
+    border-bottom-style:dotted;
+
+}
+.love h2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    /*text-decoration: underline;*/
+    font-size: 30px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    /*text-shadow: white;*/
+    /*letter-spacing: 2 em;
+    word-spacing: 0.3em;*/
+    letter-spacing: 0.3em;
+    word-spacing: 0.4 em ;
+    text-align: center;
+}
+.container{
+    background-color: blueviolet;
+    color: black;
+    margin-top: 100px;
+    border: 5px solid  black;
+    text-align: justify;
+
+}
+.container h5{
+    color: black;
+    background-color:rgb(255, 0, 212);
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    text-decoration:underline;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.categories h2{
+    text-align: center;
+}
+.categories{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.categories ul{
+    padding: 3px;
+    padding-left: 20px;
+    list-style-type: none;
+    /*list-style: none;*/
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: green;
+}
+/*a:visited{
+    color: black;
+}*/
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: dotted 2px #333;
+    list-style-image: url('check2.png');
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 20px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"] , input[type="number"], .x{
+    padding: 5px;
+    width: 100%;
+}
+.button{
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+}
+.button:active{
+    background-color: green;
+}
+.block{
+    font-weight: normal;
+    float: left;
+    width: 31%;
+    border: 1px red solid;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.main-block{
+    float: left;
+    width: 65%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+.sidebar{
+    float:right;
+    width: 25%;
+    padding: 15px;
+    background-color: #000;
+    color: white;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+
+.p-box {
+    border: 2px black solid;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-image: url('../images/bgimage.jpg');
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    /*background-position: 100px 200px;*/
+    background-position: center;
+}
+
+.p-box h1{
+    position: absolute;
+    color: white;
+    background-color: #000;
+    top: 20px;
+    left: 20px;
+
+}
+
+
+
+.p-box h2{
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    bottom: 0px;
+    right: 10px;
+
+}
+
+
+.list li:first-child{
+        background:chartreuse
+}
+
+.list li:last-child{
+    background:url('../images/bgimage.jpg');
+    color: cornsilk;
+}
+
+.list li:nth-child(5){
+    background: red;
+}
+
+.list li:nth-child(even){
+    background: darkmagenta;
+}
+
+.asd li:nth-child(odd){
+    background: black;
+    color: white;
+}
+ 
